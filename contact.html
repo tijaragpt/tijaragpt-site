@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>اتصل بنا | TijaraGPT.ai</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    form {
+      max-width: 500px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #1f2633;
+      background-color: #121722;
+      color: #e2e8f0;
+      font-family: 'Tajawal', sans-serif;
+    }
+    button {
+      background: linear-gradient(90deg, #00aef0, #6a5acd);
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      < img src="assets/brain.svg" alt="TijaraGPT Logo" />
+      TijaraGPT.ai
+    </div>
+    <nav>
+      <a href=" ">الرئيسية</a >
+      <a href="about.html">من نحن</a >
+      <a href="products.html">الخدمات</a >
+      <a href="contact.html">تواصل</a >
+      <a class="btn primary" href="chat.html">ابدأ الآن</a >
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="glow"></div>
+    <h1>اتصل بنا</h1>
+    <p>يسعدنا تواصلك معنا في أي وقت، وسنرد عليك في أسرع وقت ممكن.</p >
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container">
+    <form action="mailto:support@tijaragpt.ai" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="الاسم الكامل" required />
+      <input type="email" name="email" placeholder="البريد الإلكتروني" required />
+      <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+      <button type="submit">إرسال الرسالة ✉️</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 TijaraGPT.ai — جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
